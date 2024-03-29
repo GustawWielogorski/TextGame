@@ -1,0 +1,129 @@
+{
+    "map_size": 3,
+    "player": [
+        {
+            "name": "Jurek Ogórek",
+            "current_location": "1,1",
+            "power": 5,
+            "health": 100,
+            "equipment": [
+                {
+                    "name": "green gem",
+                    "color": "green"
+                }
+            ],
+            "locations": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "name": "LG",
+                    "description": "",
+                    "barrier": 1,
+                    "barrier_color": "green",
+                    "enemies": [],
+                    "gems": []
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "name": "GG",
+                    "description": "",
+                    "barrier": 0,
+                    "barrier_color": "green",
+                    "enemies": [
+                        {
+                            "name": "Hydra",
+                            "health": 10,
+                            "power": 5
+                        },
+                        {
+                            "name": "Orc",
+                            "health": 5,
+                            "power": 5
+                        }
+                    ],
+                    "gems": [
+                        {
+                            "name": "green gem",
+                            "color": "green"
+                        },
+                        {
+                            "name": "red gem",
+                            "color": "red"
+                        }
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 2,
+                    "name": "PG",
+                    "description": "",
+                    "barrier": 1,
+                    "barrier_color": "green",
+                    "enemies": [],
+                    "gems": []
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "name": "L",
+                    "description": "",
+                    "barrier": 1,
+                    "barrier_color": "green",
+                    "enemies": [],
+                    "gems": []
+                },
+                {
+                    "x": 1,
+                    "y": 1,
+                    "name": "S",
+                    "description": "It is dangerous area.",
+                    "barrier": 0,
+                    "barrier_color": "green",
+                    "enemies": [],
+                    "gems": []
+                },
+                {
+                    "x": 1,
+                    "y": 2,
+                    "name": "P",
+                    "description": "",
+                    "barrier": 1,
+                    "barrier_color": "green",
+                    "enemies": [],
+                    "gems": []
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "name": "LD",
+                    "description": "",
+                    "barrier": 1,
+                    "barrier_color": "green",
+                    "enemies": [],
+                    "gems": []
+                },
+                {
+                    "x": 2,
+                    "y": 1,
+                    "name": "DD",
+                    "description": "",
+                    "barrier": 1,
+                    "barrier_color": "green",
+                    "enemies": [],
+                    "gems": []
+                },
+                {
+                    "x": 2,
+                    "y": 2,
+                    "name": "PD",
+                    "description": "",
+                    "barrier": 1,
+                    "barrier_color": "green",
+                    "enemies": [],
+                    "gems": []
+                }
+            ]
+        }
+    ]
+}
